@@ -9,11 +9,11 @@ What is a Perl event?
 	* Anything  where people meet and talk about Perl.
 
 Why?
-	I work with orgainzing Pittsburgh Perl Workshops and Monger meetings, and YAPC|10.  Promoting everything everywhere is troublesome.
+ I work with orgainzing Pittsburgh Perl Workshops and Monger meetings, and YAPC|10.  Promoting everything everywhere is troublesome.
 
 
 Goal?
-	My inital goal was to ease event promotion, but am seeing it could be used for more.  But the inital goal is still to make it easey to get my perl event information out everywhere.
+ My inital goal was to ease event promotion, but am seeing it could be used for more.  But the inital goal is still to make it easey to get my perl event information out everywhere.
 
 
 
