@@ -1,6 +1,5 @@
 
-This is where the Perl Events modules will live as they are not wanted on CPAN given the limited resources.
-===========================================================================================================
+This is where the Perl Events modules are incubating.
 
 What is a Perl event?  
 --------------------
@@ -26,7 +25,9 @@ Note:  The Perl Review has a great Community Calendar I am also looking at how t
 http://www.theperlreview.com/community_calendar has been great but it has me wanting more.
 
 
-The general idea is that each Event would get its own module and live in a git repository and be maintained by that events orgainzers.  My hope this will reduce any bottlenecks.
+The general idea is that each Event would get its own module and be maintained by that events orgainzers.  My hope this will reduce any bottlenecks.
+Rething how to distribute this not that it looks like CPAN is not a good option.  This could get harder or more interesting.
+
 	Something like (but I am not loving it at all):
 		Community::Events::YAPC::NA::2009::Event.pm
 		Community::Events::Mongers::USA::PA::Pittsburgh::2009::January::Event.pm
