@@ -1,0 +1,27 @@
+Community version 0.0.1
+
+This is a module for getting an overview of the Perl community, it's
+events and services.
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+
+DEPENDENCIES
+
+[none] FIXME
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009, Salve J. Nilsen
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

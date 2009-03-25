@@ -1,0 +1,39 @@
+# This file is used for automatically creating a MANIFEST file, using
+#
+#    ./Build manifest
+#
+# The files below will then NOT be included in the MANIFEST. See the
+# ExtUtils::Manifest documentation for more information.
+#
+# 
+#
+
+# Version control-related files
+^.cvsignore$
+\B\.svn\b
+\bRCS\b
+\bCVS\b
+,v$
+
+# Package build environment
+^_build
+^Build$
+^Makefile$
+^blib/
+^MakeMaker-\d
+^MANIFEST\.
+^Community-
+
+# Backup files
+\.old$
+^#.*#$
+^\.#
+\.bak$
+~$
+
+# Developer-only tests (not to be distributed)
+^t/(version|pod|pod-coverage|kwalitee|perlcritic|boilerplate)\.t$
+
+# This file was generated on 2009-03-25 22:03:08
+#  from Module::Starter::Plugin::Template::Metno,
+#  template revision 1.2.

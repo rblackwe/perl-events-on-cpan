@@ -1,0 +1,18 @@
+# This is a -*- perl -*- test script for checking module documentation coverage
+#
+# 
+#
+
+use strict;
+use warnings;
+use Test::More;
+
+eval 'use Test::Pod::Coverage 1.04;';
+plan skip_all => "Test::Pod::Coverage 1.04 required for testing POD coverage"
+    if $@;
+
+all_pod_coverage_ok();
+
+# This file was generated on 2009-03-25 22:03:07
+#  from Module::Starter::Plugin::Template::Metno,
+#  template revision 1.4.

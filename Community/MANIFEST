@@ -1,0 +1,14 @@
+Build.PL
+Changes
+MANIFEST
+MANIFEST.SKIP
+README
+lib/Community.pm
+lib/Community/Support.pm
+lib/Community/Support.pm
+t/00_load.t
+t/kwalitee.t
+t/perlcritic.t
+t/pod-coverage.t
+t/pod.t
+t/version.t
