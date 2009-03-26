@@ -9,7 +9,7 @@ use strict;
 use diagnostics;
 use Carp;
 
-package Community;
+package Community::Events;
 
 use version; our( $VERSION ) = qv(0.0.1);
 #our( $DEBUG ) = 0;
@@ -18,24 +18,24 @@ use version; our( $VERSION ) = qv(0.0.1);
 # Module implementation here
 
 
-1; # End of Community 
+1; # End of Community::Events 
 __END__
 
 =head1 NAME
 
-Community - A module for learning about the Perl Community
+Community::Events - List and describe community events
 
 
 =head1 VERSION
 
-This document describes Community version 0.0.1
+This document describes Community::Events version 0.0.1
 
 
 =head1 SYNOPSIS
 
-    use Community;
+    use Community::Events;
 
-    my $pm = Community->new;  # FIXME
+    my $foo = Community::Events->new;   # FIXME
     ...
 
 =for author to fill in:
@@ -94,7 +94,7 @@ This is the great module for ....
     that can be set. These descriptions must also include details of any
     configuration language used.
   
-Community requires no configuration files or environment variables.
+Community::Events requires no configuration files or environment variables.
 
 
 =head1 DEPENDENCIES
@@ -134,7 +134,7 @@ None reported.
 No bugs have been reported.
 
 Please report any bugs or feature requests using the bugtracker web
-interface at L<http://rt.cpan.org/Public/Dist/Display.html?Name=Community>.
+interface at L<http://bugzilla.dnmi.no/>.
 
 =head1 AUTHOR
 
@@ -143,7 +143,7 @@ Salve J. Nilsen  C<< <sjn@cpan.org> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2009, Salve J. Nilsen C<< <sjn@cpan.org> >>. All rights reserved.
+Copyright (c) 2009, Meteorologisk Institutt, Salve J. Nilsen C<< <sjn@cpan.org> >>. All rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.

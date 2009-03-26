@@ -9,7 +9,7 @@ use strict;
 use diagnostics;
 use Carp;
 
-package Community;
+package Community::Promotion;
 
 use version; our( $VERSION ) = qv(0.0.1);
 #our( $DEBUG ) = 0;
@@ -18,24 +18,24 @@ use version; our( $VERSION ) = qv(0.0.1);
 # Module implementation here
 
 
-1; # End of Community 
+1; # End of Community::Promotion 
 __END__
 
 =head1 NAME
 
-Community - A module for learning about the Perl Community
+Community::Promotion - For helping community organizers promote their events
 
 
 =head1 VERSION
 
-This document describes Community version 0.0.1
+This document describes Community::Promotion version 0.0.1
 
 
 =head1 SYNOPSIS
 
-    use Community;
+    use Community::Promotion;
 
-    my $pm = Community->new;  # FIXME
+    my $foo = Community::Promotion->new;    # FIXME
     ...
 
 =for author to fill in:
@@ -94,7 +94,7 @@ This is the great module for ....
     that can be set. These descriptions must also include details of any
     configuration language used.
   
-Community requires no configuration files or environment variables.
+Community::Promotion requires no configuration files or environment variables.
 
 
 =head1 DEPENDENCIES

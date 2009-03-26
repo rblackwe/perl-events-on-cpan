@@ -1,4 +1,4 @@
-# This is a -*- perl -*- distribution build file for Community
+# This is a -*- perl -*- distribution build file for the Community package
 #
 # 
 #
@@ -7,7 +7,7 @@ use strict;
 use warnings;
 use Module::Build 0.28;
 
-my $default_bugtracker_url = 'http://bugzilla.dnmi.no/';
+my $default_bugtracker_url = 'http://rt.cpan.org/Public/Dist/Display.html?Name=Community';
 
 #
 # For documentation on the different arguments to Module::Build->new()
@@ -32,6 +32,3 @@ my $builder = Module::Build->new(
 $builder->meta_add( bugtracker => $default_bugtracker_url );
 $builder->create_build_script();
 
-# This file was generated on 2009-03-25 22:03:07
-#  from Module::Starter::Plugin::Template::Metno,
-#  template revision 1.7.

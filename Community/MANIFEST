@@ -4,8 +4,8 @@ MANIFEST
 MANIFEST.SKIP
 README
 lib/Community.pm
-lib/Community/Support.pm
-lib/Community/Support.pm
+lib/Community/Events.pm
+lib/Community/Promotion.pm
 t/00_load.t
 t/kwalitee.t
 t/perlcritic.t

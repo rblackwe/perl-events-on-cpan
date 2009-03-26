@@ -19,9 +19,14 @@ DEPENDENCIES
 [none] FIXME
 
 
+AKNOWLEDGEMENTS
+
+This module would not see the light of day without Robert Blackwell <rblackwe@??>
+
+
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2009, Salve J. Nilsen
+Copyright (C) 2009, Salve J. Nilsen <sjn@cpan.org>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

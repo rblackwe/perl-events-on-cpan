@@ -15,10 +15,10 @@ my $current_version = Module::Build->current->dist_version;
 file_has_version_string("lib/Community.pm",
     "perldoc VERSION statement"
     => qr/This document describes \S+ version ([\d\.]+)/ );
-file_has_version_string("lib/Community/Support.pm",
+file_has_version_string("lib/Community/Promotion.pm",
     "perldoc VERSION statement"
     => qr/This document describes \S+ version ([\d\.]+)/ );
-file_has_version_string("lib/Community/Support.pm",
+file_has_version_string("lib/Community/Events.pm",
     "perldoc VERSION statement"
     => qr/This document describes \S+ version ([\d\.]+)/ );
 
@@ -63,7 +63,3 @@ sub file_has_version_string {
         pass("$filename contains all expected version strings");
     }
 }
-
-# This file was generated on 2009-03-25 22:03:07
-#  from Module::Starter::Plugin::Template::Metno,
-#  template revision 1.4.

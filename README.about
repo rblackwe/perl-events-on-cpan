@@ -32,3 +32,10 @@ The base package should only install just enough info so anyone can figure out h
 Any module should be able to tell what's going on without having to be updated/downloaded every time something new happens. Maybe time/place can be made available online, and downloaded and cached when needed?
 
 Promotional info should be limited to documentation to begin with. Utilities for automatic posting is too dangerous, but listing email addresses/news sites/t twitter feeds and such should be useful.
+
+
+Rationale
+---------
+
+There are a lot of social network sites now.  This should be a great way to get your message out about a Perl event. Promotion is not always easy, so these modules should make it possible to make things happen in your community, both by supplying documentation and by giving some tools to help with the promotional issues.
+
