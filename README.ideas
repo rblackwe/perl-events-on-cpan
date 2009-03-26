@@ -1,0 +1,34 @@
+Overall goals
+-------------
+
+The community modules should give info to Perl users about events and user groups in a easy-to-use way that both can be accessed using standard Perl tools (perldoc, http://search.cpan.org/), programatically (use Community; # gives access to info about the community) and on the command line ($ perl-community --list-events)
+
+Secondary goals include making this info easily available for community organizers, by extracting and reporting the info the community makes available in the modules. For example, if both London.pm, Oslo.pm and Amsterdam.pm modules are installed, an organizer should be able to call Community::Promotion::Email->announcements_to to get a list of email addresses these communities have that accept event announcment emails.
+
+
+Module ambitions
+----------------
+
+This is where we keep track of modules, namespaces and the ambitions they implement. 
+
+    * Community            - Base class for PM group info modules
+    * Community::Promotion - A Module::Pluggable dir where people can drop in utility modules for helping communities promote their events
+    * Community::Events    - A Module::Pluggable dir where people can drop in info about major events like YAPC's, Workshops and Hackathons.
+    * Community::Oslo      - Info module for the Oslo.pm folks, with info on when they meet, which web resources they have, contact info, mailing lists, etc. - Lives in a separate package
+    * Community::Dahut     - Info module for the Dahut.pm guys - Lives in a separate package
+    * Community::Events::NPW2009 - Info module about the Nordic Perl Workshop - Lives in a separate package, probably the same as Oslo.pm's since they are organizing it.
+    * Community::Events::YAPC::EU::2009 - Tells about YAPC in Lisboa. Distributed with the Lisboa.pm package
+    * Community::Promotion::Twitter - Documentation module describing how and where to promote your events on Twitter. Maybe pull in and show Twitter feed names from the installed PM group modules?
+    * Community::Promotion::Email - Documentation module giving info on how and where to promote your events using email. Maybe pull email info from installed PM group modules?
+
+And finally, all this is made available with a commandline tool called "perl-community" that is installed with the Community distro. This tool should make basic information available, plus list the next meeting made available in each of the community modules. 
+
+
+Guidelines for community modules
+--------------------------------
+
+The base package should only install just enough info so anyone can figure out how to use the Community modules.
+
+Any module should be able to tell what's going on without having to be updated/downloaded every time something new happens. Maybe time/place can be made available online, and downloaded and cached when needed?
+
+Promotional info should be limited to documentation to begin with. Utilities for automatic posting is too dangerous, but listing email addresses/news sites/t twitter feeds and such should be useful.
