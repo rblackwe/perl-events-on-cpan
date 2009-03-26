@@ -1,3 +1,9 @@
+The Community Modules
+=====================
+
+This namespace is for community-related modules.
+
+
 Overall goals
 -------------
 
